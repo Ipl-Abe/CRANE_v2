@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rel/git/CRANE_v2/src/sample.cpp
+sys/types.h
+-
+sys/stat.h
+-
+sys/ioctl.h
+-
+sys/time.h
+-
+fcntl.h
+-
+termios.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+iostream
+-
+
